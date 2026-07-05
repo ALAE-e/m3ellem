@@ -65,14 +65,12 @@ a {
     text-decoration: none;
     color: #374151;
     font-weight: 500;
-    /* زدنا padding لتحت باش نخلقو بلاصة فين غايبان الخط بلا ما يدفع الكلمة */
     padding-bottom: 6px; 
-    /* درنا خط شفاف ف اللول باش ملي يزراق ما يحركش الـ Menu */
     border-bottom: 3px solid transparent; 
     transition: color 0.3s ease, border-color 0.3s ease;
 }
 
-/* Hover و Active كيبدلو غير اللون والخط بلا ما يغلضو الكلمة باش ما يتحرك والو */
+/* Hover Active */
 .menu a:hover,
 .menu a.active {
     color: #2563eb;
@@ -86,7 +84,7 @@ a {
     flex-shrink: 0;
 }
 
-/* ====== 🚨 ستايل زر الاستعجال الجديد ====== */
+/* ====== 🚨 ====== */
 .urgence-btn {
     background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);
     color: #ffffff !important;
@@ -678,7 +676,7 @@ a {
 
 
 .services-page-container {
-    width: 88%;
+    width: 80%;
     margin: 0 auto;
     padding: 70px 0;
 }
@@ -709,10 +707,10 @@ a {
 
 .service-page-card {
     background: white;
-    border-radius: 16px;
+    border-radius: 50px;
     overflow: hidden;
     box-shadow: 0 4px 20px rgba(0,0,0,0.04);
-    border: 1px solid #ececec;
+    border: 1px solid #e7dfdf;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -750,7 +748,6 @@ a {
     overflow: hidden;
 }
 
-/* تحسين الـ Grid باش يتناسق ف كاع الشاشات */
 @media(max-width: 1024px) {
     .services-grid-page {
         grid-template-columns: repeat(2, 1fr);
@@ -814,9 +811,8 @@ button{
 }
 
 /*footer*/
-/* ====== STYLES FOOTER ====== */
 .main-footer {
-    background-color: #1e293b; /* لون غامق أنيق احترافي */
+    background-color: #1e293b; 
     color: #f8fafc;
     padding: 40px 0 20px 0;
     font-family: 'Inter', sans-serif;
@@ -837,12 +833,11 @@ button{
     min-width: 250px;
 }
 
-/* ستايل اللوغو وسط الفوتر */
 .main-footer .logo {
     display: flex;
     align-items: center;
     gap: 10px;
-    color: #3b82f6; /* اللون الأزرق د السيت */
+    color: #3b82f6; 
     margin-bottom: 15px;
 }
 
@@ -865,7 +860,6 @@ button{
     line-height: 1.6;
 }
 
-/* روابط الفوتر */
 .footer-links h3, .footer-contact h3 {
     font-size: 18px;
     font-weight: 600;
@@ -893,7 +887,6 @@ button{
     color: #3b82f6;
 }
 
-/* الاتصال والشبكات الاجتماعية */
 .footer-contact p {
     font-size: 14px;
     color: #94a3b8;
@@ -926,7 +919,6 @@ button{
     transform: translateY(-3px);
 }
 
-/* حقوق الملكية لتحت */
 .footer-bottom {
     text-align: center;
     margin-top: 40px;
@@ -936,7 +928,6 @@ button{
     color: #64748b;
 }
 
-/* متجاوب مع الهواتف */
 @media (max-width: 768px) {
     .footer-container {
         flex-direction: column;
@@ -1081,7 +1072,6 @@ button{
 
 /* comonsamarch 3wtani css hh*/
 
-/* ====== Comment ça marche Styles ====== */
 .how-it-works {
     padding: 80px 6%;
     background: #ffffff;
@@ -1122,7 +1112,6 @@ button{
     box-shadow: 0 10px 20px rgba(0,0,0,0.05);
 }
 
-/* رقم الخطوة اللي كيبان الفوق */
 .step-number {
     position: absolute;
     top: -20px;
@@ -1161,7 +1150,6 @@ button{
     line-height: 1.6;
 }
 
-/* دعم الهواتف والشاشات الصغيرة */
 @media (max-width: 960px) {
     .steps-container {
         grid-template-columns: 1fr;
@@ -1169,8 +1157,6 @@ button{
     }
 }
 html {
-    scroll-behavior: smooth; /* 👈 هادي كتعطي هذيك الهبطة المرنة والزوينة */
+    scroll-behavior: smooth;
 }
-
-
 

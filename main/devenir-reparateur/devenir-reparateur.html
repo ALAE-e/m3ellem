@@ -4,11 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>M3ALAM - Devenir Réparateur</title>
-    <!-- FontAwesome للأيقونات -->
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- ملف الـ CSS الرئيسي ديالك -->
     <link rel="stylesheet" href="../style.css">
-    <!-- ملف الـ CSS الجديد الخاص بهاد الصفحة -->
     <link rel="stylesheet" href="reparateur.css">
 </head>
 <body>
@@ -16,7 +14,6 @@
     <!-- ====== NAVBAR ====== -->
 <!-- ====== NAVBAR CORRECTE POUR SERVICES.HTML ====== -->
 <header class="navbar">
-    <!-- اللوغو -->
     <div class="logo">
         <i class="fa-solid fa-house"></i>
         <div>
@@ -25,31 +22,26 @@
         </div>
     </div>
 
-    <!-- الروابط مع النقط للرجوع للخلف حيت الصفحة وسط فولدر -->
     <nav class="menu">
         <a href="../index.html">Accueil</a>
-        <a href="../services/services.html" class="active">Services</a>
+        <a href="../services/services.html">Services</a>
         <a href="../index.html#how-it-works">Comment ça marche</a>
-        <a href="../devenir-reparateur/devenir-reparateur.html">Devenir réparateur</a> 
+        <a href="../devenir-reparateur/devenir-reparateur.html" class="active">Devenir réparateur</a> 
         <a href="../À propos/propos.html">À propos</a>
         <a href="../contacts/contact.html">Contact</a>
     </nav>
 
-    <!-- الأزرار د اليمين المصلحة للموبايل -->
     <div class="nav-right">
-        <!-- 🚨 بوتون الاستعجال الجديد -->
         <a href="tel:+212701220768" class="urgence-btn">
             <i class="fa-solid fa-truck-medical"></i> <span>Urgence</span>
         </a>
         <button class="login-btn">Se connecter</button>
     </div>
 
-    <!-- الـ Hamburger menu اللي غايبان ف الموبايل -->
     <div class="hamburger">
         <i class="fa-solid fa-bars"></i>
     </div>
 </header>
-    <!-- ====== SECTION FORMULAIRE ====== -->
     <section class="reparateur-section">
         <div class="reparateur-container">
             <h2>Rejoignez M3ALAM</h2>
@@ -96,11 +88,9 @@
         </div>
     </section>
 
-    <!-- ====== FIREBASE SDKS ====== -->
     <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
 
-    <!-- ====== ملف الـ JS الجديد ديالنا ====== -->
     <script src="reparateur.js"></script>
     <script src="../main.js"></script>
 </body>
